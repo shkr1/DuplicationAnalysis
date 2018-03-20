@@ -1,0 +1,19 @@
+>TRSC58_00131 | organism=Trypanosoma_rangeli_SC58 | product=tyrosine specific protein phosphatase | location=AUPL01000131:145-1131(-) | length=987 | sequence_SO=contig | SO=protein_coding
+>TRSC58_00178 | organism=Trypanosoma_rangeli_SC58 | product=protein tyrosine phosphatase-like protein | location=AUPL01000178:55-390(-) | length=336 | sequence_SO=contig | SO=protein_coding
+>TRSC58_00250 | organism=Trypanosoma_rangeli_SC58 | product=tyrosine phospatase-like protein | location=AUPL01000250:207-1346(+) | length=1140 | sequence_SO=contig | SO=protein_coding
+>TRSC58_00815 | organism=Trypanosoma_rangeli_SC58 | product=tubulin tyrosine ligase | location=AUPL01000815:944-2521(-) | length=1578 | sequence_SO=contig | SO=protein_coding
+>TRSC58_00878 | organism=Trypanosoma_rangeli_SC58 | product=tubulin-tyrosine ligase | location=AUPL01000878:207-1457(-) | length=1251 | sequence_SO=contig | SO=protein_coding
+>TRSC58_01131 | organism=Trypanosoma_rangeli_SC58 | product=tubulin-tyrosine ligase | location=AUPL01001131:675-2522(+) | length=1848 | sequence_SO=contig | SO=protein_coding
+>TRSC58_02005 | organism=Trypanosoma_rangeli_SC58 | product=tyrosine aminotransferase | location=AUPL01002005:263-1150(+) | length=888 | sequence_SO=contig | SO=protein_coding
+>TRSC58_02148 | organism=Trypanosoma_rangeli_SC58 | product=tyrosine aminotransferase | location=AUPL01002148:293-1555(-) | length=1263 | sequence_SO=contig | SO=protein_coding
+>TRSC58_02376 | organism=Trypanosoma_rangeli_SC58 | product=tubulin-tyrosine ligase-like protein | location=AUPL01002376:130-1110(-) | length=981 | sequence_SO=contig | SO=protein_coding
+>TRSC58_03126 | organism=Trypanosoma_rangeli_SC58 | product=tubulin-tyrosine ligase-like protein | location=AUPL01003126:81-2003(-) | length=1923 | sequence_SO=contig | SO=protein_coding
+>TRSC58_03244 | organism=Trypanosoma_rangeli_SC58 | product=tubulin-tyrosine ligase-like protein | location=AUPL01003244:1166-2266(+) | length=1101 | sequence_SO=contig | SO=protein_coding
+>TRSC58_03353 | organism=Trypanosoma_rangeli_SC58 | product=tubulin tyrosine ligase | location=AUPL01003353:169-2142(-) | length=1974 | sequence_SO=contig | SO=protein_coding
+>TRSC58_03899 | organism=Trypanosoma_rangeli_SC58 | product=protein tyrosine phosphatase-like protein | location=AUPL01003899:222-752(+) | length=531 | sequence_SO=contig | SO=protein_coding
+>TRSC58_04156 | organism=Trypanosoma_rangeli_SC58 | product=tyrosine phosphatase | location=AUPL01004156:701-3061(+) | length=2361 | sequence_SO=contig | SO=protein_coding
+>TRSC58_04631 | organism=Trypanosoma_rangeli_SC58 | product=tyrosine aminotransferase | location=AUPL01004631:73-465(+) | length=393 | sequence_SO=contig | SO=protein_coding
+>TRSC58_05517 | organism=Trypanosoma_rangeli_SC58 | product=tyrosine phosphatase | location=AUPL01005517:567-1541(+) | length=975 | sequence_SO=contig | SO=protein_coding
+>TRSC58_06508 | organism=Trypanosoma_rangeli_SC58 | product=tyrosine phospatase-like protein | location=AUPL01006508:1281-2540(+) | length=1260 | sequence_SO=contig | SO=protein_coding
+>TRSC58_06538 | organism=Trypanosoma_rangeli_SC58 | product=tyrosine aminotransferase | location=AUPL01006538:278-1540(-) | length=1263 | sequence_SO=contig | SO=protein_coding
+>TRSC58_07139 | organism=Trypanosoma_rangeli_SC58 | product=tyrosine aminotransferase | location=AUPL01007139:266-1597(+) | length=1332 | sequence_SO=contig | SO=protein_coding

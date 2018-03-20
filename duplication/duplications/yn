@@ -1,0 +1,139 @@
+YN00 Non_Esm.1047053511837.70.nuc
+
+ns =   3	ls = 416
+
+Codon position x base (3x4) table for each sequence.
+
+Non_Esm.1047053511837.70
+position  1:    T:0.13702    C:0.26923    A:0.25962    G:0.33413
+position  2:    T:0.30288    C:0.16346    A:0.39183    G:0.14183
+position  3:    T:0.22596    C:0.26683    A:0.17067    G:0.33654
+
+Esm.1047053510123.20
+position  1:    T:0.13462    C:0.26923    A:0.25962    G:0.33654
+position  2:    T:0.30288    C:0.16346    A:0.39183    G:0.14183
+position  3:    T:0.22837    C:0.26683    A:0.17548    G:0.32933
+
+sylviocontig_361-3-4872-6134
+position  1:    T:0.13462    C:0.26923    A:0.25962    G:0.33654
+position  2:    T:0.30048    C:0.16346    A:0.39183    G:0.14423
+position  3:    T:0.23317    C:0.25962    A:0.18510    G:0.32212
+
+Average
+position  1:    T:0.13542    C:0.26923    A:0.25962    G:0.33574
+position  2:    T:0.30208    C:0.16346    A:0.39183    G:0.14263
+position  3:    T:0.22917    C:0.26442    A:0.17708    G:0.32933
+
+Codon usage for each species
+--------------------------------------------------------------------------
+Phe TTT  7  7  8 | Ser TCT  2  2  2 | Tyr TAT  3  3  3 | Cys TGT  3  2  2
+    TTC  8  8  7 |     TCC  5  4  5 |     TAC 10 10 10 |     TGC  0  0  0
+Leu TTA  2  2  3 |     TCA  4  5  4 | *** TAA  0  0  0 | *** TGA  0  0  0
+    TTG  8  8  7 |     TCG  2  2  2 |     TAG  0  0  0 | Trp TGG  3  3  3
+--------------------------------------------------------------------------
+Leu CTT 11 10 11 | Pro CCT  0  0  0 | His CAT  7  7  7 | Arg CGT  8  8  8
+    CTC 10 11 10 |     CCC  4  4  4 |     CAC  4  5  4 |     CGC  9  9  9
+    CTA  3  4  4 |     CCA  2  2  2 | Gln CAA 13 13 13 |     CGA  6  5  6
+    CTG  9  8  7 |     CCG  9  9  9 |     CAG 14 13 15 |     CGG  3  4  3
+--------------------------------------------------------------------------
+Ile ATT 16 17 17 | Thr ACT  4  4  4 | Asn AAT  4  5  4 | Ser AGT  6  6  6
+    ATC  7  7  6 |     ACC  6  6  6 |     AAC 12 11 11 |     AGC  1  1  2
+    ATA  7  6  7 |     ACA  4  4  4 | Lys AAA  5  5  7 | Arg AGA  0  0  0
+Met ATG 11 11 11 |     ACG  3  3  3 |     AAG 20 20 18 |     AGG  2  2  2
+--------------------------------------------------------------------------
+Val GTT  2  2  2 | Ala GCT  5  5  5 | Asp GAT 12 12 12 | Gly GGT  4  5  6
+    GTC  4  4  4 |     GCC  4  4  4 |     GAC 18 18 18 |     GGC  9  9  8
+    GTA  6  7  6 |     GCA  5  6  6 | Glu GAA 12 12 14 |     GGA  2  2  1
+    GTG 15 14 15 |     GCG  9  8  8 |     GAG 29 29 27 |     GGG  3  3  4
+--------------------------------------------------------------------------
+
+
+Sums
+--------------------------------------------------
+Phe TTT 22 | Ser TCT  6 | Tyr TAT  9 | Cys TGT  7
+    TTC 23 |     TCC 14 |     TAC 30 |     TGC  0
+Leu TTA  7 |     TCA 13 | *** TAA  0 | *** TGA  0
+    TTG 23 |     TCG  6 |     TAG  0 | Trp TGG  9
+--------------------------------------------------
+Leu CTT 32 | Pro CCT  0 | His CAT 21 | Arg CGT 24
+    CTC 31 |     CCC 12 |     CAC 13 |     CGC 27
+    CTA 11 |     CCA  6 | Gln CAA 39 |     CGA 17
+    CTG 24 |     CCG 27 |     CAG 42 |     CGG 10
+--------------------------------------------------
+Ile ATT 50 | Thr ACT 12 | Asn AAT 13 | Ser AGT 18
+    ATC 20 |     ACC 18 |     AAC 34 |     AGC  4
+    ATA 20 |     ACA 12 | Lys AAA 17 | Arg AGA  0
+Met ATG 33 |     ACG  9 |     AAG 58 |     AGG  6
+--------------------------------------------------
+Val GTT  6 | Ala GCT 15 | Asp GAT 36 | Gly GGT 15
+    GTC 12 |     GCC 12 |     GAC 54 |     GGC 26
+    GTA 19 |     GCA 17 | Glu GAA 38 |     GGA  5
+    GTG 44 |     GCG 25 |     GAG 85 |     GGG 10
+--------------------------------------------------
+
+
+
+(A) Nei-Gojobori (1986) method
+
+Nei M, Gojobori T (1986) Simple methods for estimating the numbers of synonymous and nonsynonymous nucleotide substitutions. Mol. Biol. Evol. 3:418-426
+
+Nei & Gojobori 1986. dN/dS (dN, dS)
+
+Non_Esm.1047053511837.70
+Esm.1047053510123.20 0.0435(0.0021 0.0476)
+sylviocontig_361-3-4872-6134 0.0775(0.0031 0.0401) 0.0527(0.0031 0.0591)
+
+
+(B) Yang & Nielsen (2000) method
+
+Yang Z, Nielsen R (2000) Estimating synonymous and nonsynonymous substitution rates under realistic evolutionary models. Mol. Biol. Evol. 17:32-43
+
+(equal weighting of pathways)
+
+seq. seq.     S       N        t   kappa   omega     dN +- SE    dS +- SE
+
+   2    1   370.0   878.0   0.0371  5.2890  0.0629 0.0023 +- 0.0016  0.0363 +- 0.0102
+   3    1   372.0   876.0   0.0342  5.2890  0.1138 0.0034 +- 0.0020  0.0302 +- 0.0091
+   3    2   374.0   874.0   0.0472  5.2890  0.0773 0.0034 +- 0.0020  0.0445 +- 0.0113
+
+
+(C) LWL85, LPB93 & LWLm methods
+
+Li W.-H., C.-I. Wu, Luo (1985) A new method for estimating synonymous and nonsynonymous rates of nucleotide substitutions considering the relative likelihood of nucleotide and codon changes. Mol. Biol. Evol. 2: 150-174.
+Li W-H (1993) Unbiased estimation of the rates of synonymous and nonsynonymous substitution. J. Mol. Evol. 36:96-99
+Pamilo P, Bianchi NO (1993) Evolution of the Zfx and Zfy genes - rates and interdependence between the genes. Mol. Biol. Evol. 10:271-281
+Yang Z (2006) Computational Molecular Evolution. Oxford University Press, Oxford, England
+
+2 (Esm.1047053510123.20) vs. 1 (Non_Esm.1047053511837.70)
+
+L(i):      813.0     262.5     172.5  sum=   1248.0
+Ns(i):    0.0000    6.0000    5.0000  sum=  11.0000
+Nv(i):    1.0000    2.0000    1.0000  sum=   4.0000
+A(i):    -0.0000    0.0236    0.0300
+B(i):     0.0012    0.0077    0.0058
+LWL85:  dS =  0.0476 dN =  0.0031 w = 0.0642 S =  260.0 N =  988.0
+LWL85m: dS =  0.0315 dN =  0.0035 w = 0.1118 S =  392.3 N =  855.7 (rho = 0.837)
+LPB93:  dS =  0.0320 dN =  0.0028 w = 0.0877
+
+3 (sylviocontig_361-3-4872-6134) vs. 1 (Non_Esm.1047053511837.70)
+
+L(i):      813.5     262.5     172.0  sum=   1248.0
+Ns(i):    1.0000    7.0000    4.0000  sum=  12.0000
+Nv(i):    2.0000    0.0000    0.0000  sum=   2.0000
+A(i):     0.0012    0.0274    0.0238
+B(i):     0.0025   -0.0000   -0.0000
+LWL85:  dS =  0.0435 dN =  0.0030 w = 0.0699 S =  259.5 N =  988.5
+LWL85m: dS =  0.0260 dN =  0.0037 w = 0.1423 S =  434.5 N =  813.5 (rho = 1.000)
+LPB93:  dS =  0.0260 dN =  0.0031 w = 0.1191
+
+3 (sylviocontig_361-3-4872-6134) vs. 2 (Esm.1047053510123.20)
+
+L(i):      813.5     262.0     172.5  sum=   1248.0
+Ns(i):    1.0000    7.0000    7.0000  sum=  15.0000
+Nv(i):    1.0000    2.0000    1.0000  sum=   4.0000
+A(i):     0.0012    0.0277    0.0426
+B(i):     0.0012    0.0077    0.0058
+LWL85:  dS =  0.0600 dN =  0.0041 w = 0.0678 S =  259.8 N =  988.2
+LWL85m: dS =  0.0387 dN =  0.0048 w = 0.1229 S =  402.9 N =  845.1 (rho = 0.880)
+LPB93:  dS =  0.0394 dN =  0.0040 w = 0.1024
+

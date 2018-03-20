@@ -1,0 +1,141 @@
+# BLASTP 2.2.26 [Sep-21-2011]
+# Query: TRSC58_00131 | 
+# Database: Rangeli_AA.fasta
+# Fields: Query id, Subject id, % identity, alignment length, mismatches, gap openings, q. start, q. end, s. start, s. end, e-value, bit score
+TRSC58_00131	TRSC58_00131	100.00	328	0	0	1	328	1	328	0.0	 639
+# BLASTP 2.2.26 [Sep-21-2011]
+# Query: TRSC58_00178 | 
+# Database: Rangeli_AA.fasta
+# Fields: Query id, Subject id, % identity, alignment length, mismatches, gap openings, q. start, q. end, s. start, s. end, e-value, bit score
+TRSC58_00178	TRSC58_00178	100.00	111	0	0	1	111	1	111	1e-81	 229
+TRSC58_00178	TRSC58_03899	100.00	111	0	0	1	111	66	176	3e-81	 231
+# BLASTP 2.2.26 [Sep-21-2011]
+# Query: TRSC58_00250 | 
+# Database: Rangeli_AA.fasta
+# Fields: Query id, Subject id, % identity, alignment length, mismatches, gap openings, q. start, q. end, s. start, s. end, e-value, bit score
+TRSC58_00250	TRSC58_00250	100.00	379	0	0	1	379	1	379	0.0	 706
+TRSC58_00250	TRSC58_06508	100.00	309	0	0	1	309	100	408	0.0	 559
+# BLASTP 2.2.26 [Sep-21-2011]
+# Query: TRSC58_00815 | 
+# Database: Rangeli_AA.fasta
+# Fields: Query id, Subject id, % identity, alignment length, mismatches, gap openings, q. start, q. end, s. start, s. end, e-value, bit score
+TRSC58_00815	TRSC58_00815	100.00	525	0	0	1	525	1	525	0.0	1030
+TRSC58_00815	TRSC58_03353	30.81	344	160	8	178	488	238	536	9e-34	 125
+TRSC58_00815	TRSC58_01131	30.64	346	176	17	152	461	161	478	1e-31	 119
+TRSC58_00815	TRSC58_00878	30.18	222	131	8	250	461	155	362	1e-23	93.6
+TRSC58_00815	TRSC58_03126	26.20	313	173	7	238	492	222	534	4e-20	83.6
+# BLASTP 2.2.26 [Sep-21-2011]
+# Query: TRSC58_00878 | 
+# Database: Rangeli_AA.fasta
+# Fields: Query id, Subject id, % identity, alignment length, mismatches, gap openings, q. start, q. end, s. start, s. end, e-value, bit score
+TRSC58_00878	TRSC58_00878	100.00	416	0	0	1	416	1	416	0.0	 856
+TRSC58_00878	TRSC58_00815	30.60	232	137	8	155	372	250	471	2e-26	 101
+TRSC58_00878	TRSC58_03353	28.04	296	169	11	103	369	236	516	9e-25	97.1
+TRSC58_00878	TRSC58_01131	23.60	394	226	15	91	416	166	552	6e-17	73.2
+# BLASTP 2.2.26 [Sep-21-2011]
+# Query: TRSC58_01131 | 
+# Database: Rangeli_AA.fasta
+# Fields: Query id, Subject id, % identity, alignment length, mismatches, gap openings, q. start, q. end, s. start, s. end, e-value, bit score
+TRSC58_01131	TRSC58_01131	100.00	615	0	0	1	615	1	615	0.0	1185
+TRSC58_01131	TRSC58_03353	31.33	415	238	12	124	530	181	556	6e-54	 187
+TRSC58_01131	TRSC58_00815	31.48	359	182	17	175	506	167	488	3e-35	 130
+TRSC58_01131	TRSC58_03126	30.30	363	197	11	186	508	185	531	8e-31	 118
+TRSC58_01131	TRSC58_00878	22.84	324	195	11	180	496	103	378	3e-16	71.2
+# BLASTP 2.2.26 [Sep-21-2011]
+# Query: TRSC58_02005 | 
+# Database: Rangeli_AA.fasta
+# Fields: Query id, Subject id, % identity, alignment length, mismatches, gap openings, q. start, q. end, s. start, s. end, e-value, bit score
+TRSC58_02005	TRSC58_02005	100.00	295	0	0	1	295	1	295	0.0	 580
+TRSC58_02005	TRSC58_06538	44.59	296	159	2	1	292	124	418	3e-80	 244
+TRSC58_02005	TRSC58_02148	44.59	296	159	2	1	292	124	418	3e-80	 244
+TRSC58_02005	TRSC58_07139	43.60	289	158	2	1	285	124	411	7e-71	 220
+TRSC58_02005	TRSC58_04631	45.16	124	67	1	169	292	6	128	8e-31	 105
+# BLASTP 2.2.26 [Sep-21-2011]
+# Query: TRSC58_02148 | 
+# Database: Rangeli_AA.fasta
+# Fields: Query id, Subject id, % identity, alignment length, mismatches, gap openings, q. start, q. end, s. start, s. end, e-value, bit score
+TRSC58_02148	TRSC58_06538	100.00	420	0	0	1	420	1	420	0.0	 824
+TRSC58_02148	TRSC58_02148	100.00	420	0	0	1	420	1	420	0.0	 824
+TRSC58_02148	TRSC58_07139	97.84	416	9	0	1	416	1	416	0.0	 792
+TRSC58_02148	TRSC58_02005	44.59	296	159	2	124	418	1	292	2e-95	 284
+TRSC58_02148	TRSC58_04631	100.00	130	0	0	291	420	1	130	2e-92	 270
+# BLASTP 2.2.26 [Sep-21-2011]
+# Query: TRSC58_02376 | 
+# Database: Rangeli_AA.fasta
+# Fields: Query id, Subject id, % identity, alignment length, mismatches, gap openings, q. start, q. end, s. start, s. end, e-value, bit score
+TRSC58_02376	TRSC58_02376	100.00	326	0	0	1	326	1	326	0.0	 626
+# BLASTP 2.2.26 [Sep-21-2011]
+# Query: TRSC58_03126 | 
+# Database: Rangeli_AA.fasta
+# Fields: Query id, Subject id, % identity, alignment length, mismatches, gap openings, q. start, q. end, s. start, s. end, e-value, bit score
+TRSC58_03126	TRSC58_03126	100.00	640	0	0	1	640	1	640	0.0	1273
+TRSC58_03126	TRSC58_03353	28.60	458	217	16	184	607	241	622	5e-36	 134
+TRSC58_03126	TRSC58_01131	30.30	363	197	11	185	531	186	508	6e-31	 118
+TRSC58_03126	TRSC58_00815	26.20	313	173	7	222	534	238	492	4e-24	96.7
+# BLASTP 2.2.26 [Sep-21-2011]
+# Query: TRSC58_03244 | 
+# Database: Rangeli_AA.fasta
+# Fields: Query id, Subject id, % identity, alignment length, mismatches, gap openings, q. start, q. end, s. start, s. end, e-value, bit score
+TRSC58_03244	TRSC58_03244	100.00	366	0	0	1	366	1	366	0.0	 614
+# BLASTP 2.2.26 [Sep-21-2011]
+# Query: TRSC58_03353 | 
+# Database: Rangeli_AA.fasta
+# Fields: Query id, Subject id, % identity, alignment length, mismatches, gap openings, q. start, q. end, s. start, s. end, e-value, bit score
+TRSC58_03353	TRSC58_03353	100.00	657	0	0	1	657	1	657	0.0	1293
+TRSC58_03353	TRSC58_01131	31.11	434	247	14	181	575	124	544	1e-56	 195
+TRSC58_03353	TRSC58_00815	30.81	344	160	8	238	536	178	488	1e-38	 140
+TRSC58_03353	TRSC58_03126	30.42	378	182	13	241	555	184	543	2e-35	 132
+TRSC58_03353	TRSC58_00878	28.04	296	169	11	236	516	103	369	1e-24	97.1
+# BLASTP 2.2.26 [Sep-21-2011]
+# Query: TRSC58_03899 | 
+# Database: Rangeli_AA.fasta
+# Fields: Query id, Subject id, % identity, alignment length, mismatches, gap openings, q. start, q. end, s. start, s. end, e-value, bit score
+TRSC58_03899	TRSC58_03899	100.00	176	0	0	1	176	1	176	2e-133	 366
+TRSC58_03899	TRSC58_00178	100.00	111	0	0	66	176	1	111	5e-81	 231
+TRSC58_03899	TRSC58_04156	25.00	176	92	3	18	153	306	481	3e-14	61.2
+# BLASTP 2.2.26 [Sep-21-2011]
+# Query: TRSC58_04156 | 
+# Database: Rangeli_AA.fasta
+# Fields: Query id, Subject id, % identity, alignment length, mismatches, gap openings, q. start, q. end, s. start, s. end, e-value, bit score
+TRSC58_04156	TRSC58_04156	100.00	786	0	0	1	786	1	786	0.0	1444
+TRSC58_04156	TRSC58_03899	25.00	172	89	3	306	477	18	149	4e-13	59.7
+# BLASTP 2.2.26 [Sep-21-2011]
+# Query: TRSC58_04631 | 
+# Database: Rangeli_AA.fasta
+# Fields: Query id, Subject id, % identity, alignment length, mismatches, gap openings, q. start, q. end, s. start, s. end, e-value, bit score
+TRSC58_04631	TRSC58_04631	100.00	130	0	0	1	130	1	130	2e-96	 269
+TRSC58_04631	TRSC58_06538	100.00	130	0	0	1	130	291	420	7e-93	 270
+TRSC58_04631	TRSC58_02148	100.00	130	0	0	1	130	291	420	7e-93	 270
+TRSC58_04631	TRSC58_07139	100.00	122	0	0	1	122	291	412	2e-85	 251
+TRSC58_04631	TRSC58_02005	45.16	124	67	1	6	128	169	292	2e-36	 119
+# BLASTP 2.2.26 [Sep-21-2011]
+# Query: TRSC58_05517 | 
+# Database: Rangeli_AA.fasta
+# Fields: Query id, Subject id, % identity, alignment length, mismatches, gap openings, q. start, q. end, s. start, s. end, e-value, bit score
+TRSC58_05517	TRSC58_05517	100.00	324	0	0	1	324	1	324	0.0	 549
+TRSC58_05517	TRSC58_06508	35.19	162	99	4	24	184	23	179	1e-21	85.1
+# BLASTP 2.2.26 [Sep-21-2011]
+# Query: TRSC58_06508 | 
+# Database: Rangeli_AA.fasta
+# Fields: Query id, Subject id, % identity, alignment length, mismatches, gap openings, q. start, q. end, s. start, s. end, e-value, bit score
+TRSC58_06508	TRSC58_06508	100.00	419	0	0	1	419	1	419	0.0	 784
+TRSC58_06508	TRSC58_00250	100.00	309	0	0	100	408	1	309	0.0	 559
+TRSC58_06508	TRSC58_05517	34.50	171	106	4	14	179	15	184	1e-21	85.5
+# BLASTP 2.2.26 [Sep-21-2011]
+# Query: TRSC58_06538 | 
+# Database: Rangeli_AA.fasta
+# Fields: Query id, Subject id, % identity, alignment length, mismatches, gap openings, q. start, q. end, s. start, s. end, e-value, bit score
+TRSC58_06538	TRSC58_06538	100.00	420	0	0	1	420	1	420	0.0	 824
+TRSC58_06538	TRSC58_02148	100.00	420	0	0	1	420	1	420	0.0	 824
+TRSC58_06538	TRSC58_07139	97.84	416	9	0	1	416	1	416	0.0	 792
+TRSC58_06538	TRSC58_02005	44.59	296	159	2	124	418	1	292	2e-95	 284
+TRSC58_06538	TRSC58_04631	100.00	130	0	0	291	420	1	130	2e-92	 270
+# BLASTP 2.2.26 [Sep-21-2011]
+# Query: TRSC58_07139 | 
+# Database: Rangeli_AA.fasta
+# Fields: Query id, Subject id, % identity, alignment length, mismatches, gap openings, q. start, q. end, s. start, s. end, e-value, bit score
+TRSC58_07139	TRSC58_07139	100.00	443	0	0	1	443	1	443	0.0	 870
+TRSC58_07139	TRSC58_06538	97.84	416	9	0	1	416	1	416	0.0	 791
+TRSC58_07139	TRSC58_02148	97.84	416	9	0	1	416	1	416	0.0	 791
+TRSC58_07139	TRSC58_02005	43.60	289	158	2	124	411	1	285	6e-86	 259
+TRSC58_07139	TRSC58_04631	100.00	122	0	0	291	412	1	122	7e-85	 251

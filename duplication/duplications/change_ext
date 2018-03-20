@@ -1,0 +1,4 @@
+for w in *.txt.fasta-gb.oneline
+	do 
+	mv "$w" "${w//txt.fasta-gb.oneline/fasta}"
+done

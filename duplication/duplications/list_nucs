@@ -1,0 +1,4 @@
+for r in *.nuc
+	do
+	ls $r >> ${i}_nucs
+done

@@ -1,0 +1,4 @@
+for n in *.txt.fasta
+	do
+	./Gblocks $n -t=c -p=y
+done

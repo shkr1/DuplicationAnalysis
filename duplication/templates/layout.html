@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Duplications</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='signin.css') }}">
+
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='pricing.css') }}">
+  </head>
+
+  <div class="page">
+    {% for message in get_flashed_messages() %}
+      <div class="alert alert-danger">
+        <center><div class="flash">{{ message }}</div></center>
+      </div>
+    {% endfor %}
+    <body>
+      <div class="container">
+        {% block body %}{% endblock %}
+      </div>
+    </body>
+  </div>
+</html>

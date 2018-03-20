@@ -1,0 +1,4 @@
+while IFS=" " read value1 value2
+do
+	fastacmd -d ${i}_CDS.fasta -p F -s $value2 >> $value1.txt
+done < "${i}_cleancomp"

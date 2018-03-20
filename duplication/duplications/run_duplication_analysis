@@ -1,0 +1,86 @@
+i="Rangeli"
+while getopts "i:" opt; do
+	case "$opt" in
+	i) i=$OPTARG
+	   echo "-i was triggered"
+	   ;;
+	esac
+done
+	perl fasta-oneline-to-file-no-spaces2.pl ${i}_CDS_orig.fasta \
+	&& perl fasta-oneline-to-file-no-spaces2.pl ${i}_AA_orig.fasta \
+	&& grep -A 1 --no-group-separator -wFf GET_GENES.txt ${i}_CDS_orig.fasta.oneline > ${i}_CDS.fasta \
+	&& grep -A 1 --no-group-separator -wFf GET_GENES.txt ${i}_AA_orig.fasta.oneline > ${i}_AA.fasta \
+	&& grep --no-group-separator -wFf GET_GENES.txt ${i}_CDS_orig.fasta > ${i}_CDS_genes.fasta \
+	&& grep --no-group-separator -wFf GET_GENES.txt ${i}_AA_orig.fasta > ${i}_AA_genes.fasta \
+	&& sed -i 's/organism.*$//' ${i}_CDS.fasta \
+	&& sed -i 's/organism.*$//' ${i}_AA.fasta \
+	&& formatdb -i ${i}_CDS.fasta -p F -o \
+	&& formatdb -i ${i}_AA.fasta -p T -o \
+	&& echo DBs............... DONE \
+	&& blastall -p blastp -i ${i}_AA.fasta -d ${i}_AA.fasta -e 1e-10 -m 9 -o ${i}_PBLAST \
+	&& echo BLAST............. DONE \
+	&& awk '{print $1, $2}' ${i}_PBLAST > ${i}_comp \
+	&& awk -F ' ' '!a[$1,$2]++ && !a[$2,$1]++' ${i}_comp > ${i}_norepcomp \
+	&& awk -F ' ' '!a[$1,$1]++' ${i}_comp > ${i}_selfcomp \
+	&& cat ${i}_norepcomp ${i}_selfcomp | sed 's/\# BLASTP//g; s/\# Database://g; s/\# Fields://g; s/\# Query://g' | grep -v '^$' | sort > ${i}_cleancomp \
+	&& echo comparisons....... DONE \
+	&& export i \
+	&& chmod +x run_fastacmd \
+	&& bash run_fastacmd \
+	&& mkdir hits \
+	&& mv *.txt hits \
+	&& mv run_files_on_translatorx3.pl hits \
+	&& mv muscle hits \
+	&& mv translatorx3.pl hits \
+	&& mv run_paml_format hits \
+	&& mv run_yn00.pl hits \
+	&& mv yn00 hits \
+	&& mv yn hits \
+	&& mv yn00.c hits \
+	&& mv multiple-fasta-alignment-2-paml.pl hits \
+	&& mv grabdata hits \
+	&& mv Gblocks hits \
+	&& mv run_Gblocks hits \
+	&& mv run_blocks_oneline hits \
+	&& mv fasta-oneline-to-file-no-spaces2.pl hits \
+	&& mv change_ext hits \
+	&& cd hits \
+	&& mv GET_GENES.txt .. \
+	&& chmod +x run_paml_format \
+	&& chmod +x grabdata \
+	&& chmod +x run_Gblocks \
+	&& chmod +x run_blocks_oneline \
+	&& chmod +x change_ext \
+	&& perl run_files_on_translatorx3.pl \
+	&& rm -f *.min \
+	&& rm -f *.mout \
+	&& echo translator........ DONE \
+	&& bash run_Gblocks; \
+	rm -f *.txt.fasta \
+	&& bash run_blocks_oneline \
+	&& bash change_ext \
+	&& bash run_paml_format \
+	&& ls *.nuc > ${i}_nucs \
+	&& perl run_yn00.pl ${i}_nucs \
+	&& echo PAML.............. DONE \
+	&& bash grabdata \
+	&& mkdir -p ../Result \
+	&& mv dS_${i}_RESULT.txt ../Result \
+	&& echo ANALYSIS.......... DONE \
+	&& mv run_files_on_translatorx3.pl .. \
+	&& mv muscle .. \
+	&& mv translatorx3.pl .. \
+	&& mv run_paml_format .. \
+	&& mv run_yn00.pl .. \
+	&& mv yn00 .. \
+	&& mv yn .. \
+	&& mv yn00.c .. \
+	&& mv multiple-fasta-alignment-2-paml.pl .. \
+	&& mv grabdata .. \
+	&& mv Gblocks .. \
+	&& mv run_Gblocks .. \
+	&& mv run_blocks_oneline .. \
+	&& mv fasta-oneline-to-file-no-spaces2.pl .. \
+	&& mv change_ext .. \
+	&& cd .. \
+	&& rm -r hits

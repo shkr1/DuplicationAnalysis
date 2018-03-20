@@ -1,0 +1,33 @@
+{% extends "layout.html" %}
+{% block body %}
+	<form action="{{ url_for('upload_entry') }}" method="post" class="form-signin" enctype="multipart/form-data">
+      <center><img class="mb-4" src="https://getbootstrap.com/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72"></center>
+      <h1 class="h3 mb-3 font-weight-normal"></h1>
+
+      {% if success %}
+      	<div class="alert alert-primary">
+      		Se ha subido tú archivo
+      	</div>
+      {% endif %}
+
+      <div class="form-label-group">
+      	<label for="name" class="sr-only">Name</label>
+      	<input type="text" id="name" name="name" class="form-control" placeholder="Rangeli" required autofocus>
+      </div>
+      <div class="form-label-group">
+	      <label for="inputEmail" class="sr-only">Gen</label>
+	      <input type="text" id="inputEmail" name="gen" class="form-control" placeholder="tyrosine" required autofocus>
+	  </div>
+
+	  <div class="form-label-group">
+	      <label for="file" class="sr-only">File</label>
+	      <input type="file" id="file" name="file" class="form-control" multiple>
+	  </div>
+
+      <div class="checkbox mb-3">
+        
+      </div>
+      <button class="btn btn-lg btn-primary btn-block" type="submit">Submit</button>
+      <center><p class="mt-5 mb-3 text-muted">&copy; 2017-2018</p></center>
+    </form>
+{% endblock %}

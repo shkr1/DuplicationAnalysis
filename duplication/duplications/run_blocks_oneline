@@ -1,0 +1,4 @@
+for b in *.fasta-gb
+	do
+	perl fasta-oneline-to-file-no-spaces2.pl $b
+done

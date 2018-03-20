@@ -1,0 +1,8 @@
+for y in *.out
+do
+	grep -i 'vs' $y | grep -v '^$' > ${y}.vs
+	sed -n '/seq. seq.     S       N        t   kappa   omega     dN +- SE    dS +- SE/,/(C) LWL85, LPB93 & LWLm methods/p' $y | sed 's/seq. seq.     S       N        t   kappa   omega     dN +- SE    dS +- SE//' | sed 's/(C) LWL85, LPB93 & LWLm methods//' | grep -v '^$' > ${y}.omega
+	paste ${y}.vs ${y}.omega > ${y}.FINAL 
+	awk '{print $2,$5,$8,$9,$10,$11,$12,$12,$14,$15,$16,$17,$18}' ${y}.FINAL >> data.txt 
+	awk '{print $1,$2,$11}' data.txt > dS_${i}_RESULT.txt
+done

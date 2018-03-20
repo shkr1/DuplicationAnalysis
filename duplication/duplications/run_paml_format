@@ -1,0 +1,5 @@
+for t in *.fasta
+	do
+	perl multiple-fasta-alignment-2-paml.pl $t > $t.lala
+	rm -f *.lala
+done
